@@ -1,0 +1,59 @@
+.fotter{margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.fotterlogo{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}
+.fotterlogo p{
+  color: rgb(18, 17, 17);
+  font-size: 46px;
+  font-weight: 700;
+}
+.fotterlink{
+display: flex;
+list-style: none;
+gap: 50px;
+color: black;
+font-size: 20px;
+}
+.fotterlink li{
+  cursor: pointer;
+}
+
+.fottersocialicon{
+  display: flex;
+  gap: 20px;
+
+}
+.fottericoncontainer{
+  padding: 10px;
+  padding-bottom: 6px;
+  background: white;
+  border: 1px solid white;
+}
+.fottercopyright{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  margin-bottom: 30px;
+  color: black;
+  font-size: 20px;
+
+
+}
+.fottercopyright hr{
+ width: 80%;
+ border: none;
+ border-radius: 10px;
+ height: 3px; 
+ background: rgb(158, 158, 158);
+}

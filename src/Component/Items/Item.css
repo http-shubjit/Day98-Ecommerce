@@ -1,0 +1,27 @@
+.item{
+  width: 370px;
+  
+}
+.item p{
+  margin: 6px 0px;
+
+}
+.itemprices{
+  display: flex;
+  gap: 20px;
+}
+.itempricenew{
+  color: #373737;
+  font-size: 18px;
+  font-weight: 600;
+}
+.itempriceold{
+  color: #373737;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: line-through;
+}
+.item:hover{
+  transform: scale(1.05);
+  transition: 0.7s;
+}
